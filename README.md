@@ -8,6 +8,19 @@ Put this in the manifest file.
     "com.package.template": "https://github.com/psarras/Unity.PackageManagerTemplate.git",
 ```
 
+This package also contains two examples for adding sample assets on your package. you need to follow the following file structure. [source](https://forum.unity.com/threads/samples-in-packages-manual-setup.623080/)
+
+```
+<Root>
+ ├── package.json
+ ├── samples~
+ │   ├── Sample Folder 1
+ │   │   └── …
+ │   └── Sample Folder 2
+ │       └── …
+ └── ...
+```
+
 ## Links
 
 Extra documentation from [Unity Forums](https://forum.unity.com/threads/package-manager-documentation.662611/)

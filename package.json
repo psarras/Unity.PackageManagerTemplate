@@ -15,5 +15,16 @@
     "email": "customPackage@example.com",
     "url": "https://github.com/psarras/Unity.PackageManagerTemplate"
   },
-  "type": "library"
+  "type": "library",
+  "samples": [{
+      "displayName": "Sample Name 1",
+      "description": "Description for sample 1",
+      "path": "samples/Sample Folder 1"
+    },
+    {
+      "displayName": "Sample Name 2",
+      "description": "Description for sample 2",
+      "path": "samples/Sample Folder 2"
+    }
+  ]
 }
